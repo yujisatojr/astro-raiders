@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
 
 public class HealthText : MonoBehaviour
 {
-    public TextMeshProUGUI healthText;
+    public Text healthText;
 
     private void Update()
     {
